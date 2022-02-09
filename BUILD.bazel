@@ -20,12 +20,13 @@ toolchain(
 )
 
 py_binary(
-    name = "hello",
-    srcs = ["hello.py"],
+    name = "main",
+    srcs = ["main.py"],
     deps = [
         requirement("matplotlib"),
         requirement("numba"),
         requirement("numpy"),
         requirement("pandas"),
+        requirement("scikit-learn"),
     ],
 )

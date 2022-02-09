@@ -2,3 +2,4 @@ matplotlib
 numba==0.55.1
 numpy
 pandas
+scikit-learn
